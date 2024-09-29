@@ -21,13 +21,13 @@
 <footer>
   <div class="footer-cont">
       <div class="footer-col">
-          <h4>Sobre nosotros</h4>
-          <p>Somos un club enfocado en el desarrollo del pensamiento lógico, a través de la innovación y la creatividad.</p>
+          <h4>Ruta del saber</h4>
+          <p>.</p>
       </div>
       <div class="footer-col">
-          <h4>Enlaces rápidos</h4>
+          <h4>Enlaces</h4>
           <ul>
-              <li><a href="/rutadelsaber/index.php">Inicio</a></li>
+              <li><a href="/rutadelsaber/index/index.php">Inicio</a></li>
               <li><a href="#">Clubes</a></li>
               <li><a href="#">Eventos</a></li>
               <li><a href="#">Contactos</a></li>

@@ -33,7 +33,7 @@
 <nav role="navigation" class="primary-navigation">
 
   <ul>
-    <li><i class="fa fa-user"></i><a href="#" class=""> Clubes &dtrif;</a>
+    <li><a href="#" class=""> Clubes</a> <i class="fa fa-chevron-down arrow"></i>
       <ul class="dropdown">
         <li><a href="/rutadelsaber/index/thinking.php">Thinking lab</a></li>
         <li><a href="/rutadelsaber/index/nexus.php">Nexus</a></li>
@@ -44,21 +44,23 @@
       </ul>
     </li>
 
-    <li><i class="fa fa-phone"></i><a href="#" class="" > Contactos &dtrif;</a>
+    <li></i><a href="#" class="" > Contactos</a>  <i class="fa fa-chevron-down arrow"></i>
+
         <ul class="dropdown">
           <li><a href="#">Nuestros miembros</a></li>
           <li><a href="#">Sobre nosotros</a></li>
         </ul>
       </li>
 
-      <li><i class="fa fa-calendar"></i><a href="#"> Eventos &dtrif;</a>
+      <li></i><a href="#"> Eventos</a> <i class="fa fa-chevron-down arrow"></i>
         <ul class="dropdown">
           <li><a href="/rutadelsaber/Eventos/eventos.html">Calendario de eventos</a></li>
           <li><a href="#">Galeria de eventos</a></li>
         </ul>
       </li>
 
-      <li><i class="fa fa-pencil"></i><a href="#"> Refuerzos &dtrif;</a>
+      <li></i><a href="#"> Refuerzos</a> <i class="fa fa-chevron-down arrow"></i>
+
         <ul class="dropdown">
           <li><a href="#">Horario de refuerzos</a></li>
           <li><a href="#">Conoce nuestros tutores</a></li>
@@ -67,7 +69,8 @@
         </ul>
       </li>
 
-      <li><i class="fa fa-book"></i><a href="#"> Únete &dtrif;</a>
+      <li><a href="#"> Únete</a>  <i class="fa fa-chevron-down arrow"></i>
+
         <ul class="dropdown">
           <li><a href="#">Web Development</a></li>
           <li><a href="#">Web Design</a></li>

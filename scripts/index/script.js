@@ -19,8 +19,8 @@ const eventos = [
 ];
 
 const buttonEvents = [
-    "",
-    "",
+    "Test",
+    "Test",
     "¿Quienes somos?",
     "Explorar más",
     "Mia"
