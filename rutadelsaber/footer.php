@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,20 +21,20 @@
 <footer>
   <div class="footer-cont">
       <div class="footer-col">
-          <h4 class="footer-h4">Sobre nosotros</h4>
-          <p class="footer-p">Somos un club enfocado en el desarrollo del pensamiento lógico, a través de la innovación y la creatividad.</p>
+          <h4>Sobre nosotros</h4>
+          <p>Somos un club enfocado en el desarrollo del pensamiento lógico, a través de la innovación y la creatividad.</p>
       </div>
       <div class="footer-col">
-          <h4 class="footer-h4" >Enlaces rápidos</h4>
+          <h4>Enlaces rápidos</h4>
           <ul>
-              <li><a href="/rutadelsaber/index/index.php">Inicio</a></li>
+              <li><a href="/rutadelsaber/index.php">Inicio</a></li>
               <li><a href="#">Clubes</a></li>
               <li><a href="#">Eventos</a></li>
               <li><a href="#">Contactos</a></li>
           </ul>
       </div>
       <div class="footer-col">
-          <h4 class="footer-h4">Síguenos</h4>
+          <h4>Síguenos</h4>
           <div class="social">
               <a href="https://www.instagram.com/rutadelsaber1/" target="_blank" class="fa fa-instagram"></a>
               <a href="https://www.whatsapp.com/" target="_blank" class="fa fa-whatsapp"></a>
@@ -43,7 +43,7 @@
       </div>
   </div>
   <div class="footer-pie">
-      <p class="footer-p">&copy; 2024 UNITECNAR. Todos los derechos reservados.</p>
+      <p>&copy; 2024 UNITECNAR. Todos los derechos reservados.</p>
   </div>
 </footer>
 </html>

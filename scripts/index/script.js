@@ -120,7 +120,6 @@ menuToggle.addEventListener('click', function(e) {
 
 // Expandir imagenes
 
-// Primera card
 
 document.addEventListener('DOMContentLoaded', function () {
     const memberImage = document.getElementById('member-img');
@@ -143,8 +142,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }, true);
 });
-
-// Segunda card
 
 
 document.addEventListener('DOMContentLoaded', function () {

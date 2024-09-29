@@ -26,8 +26,8 @@ Mi intención con la página es crear algo útil y remodelar la página de la ru
 </head>
 <body>
 <!-- Reutilización de código con php del header y el sidebar, en lo último está el footer reutilizado. -->
-<?php include 'C:\xampp\htdocs\rutadelsaber\header.php'; ?>
-<?php include 'C:\xampp\htdocs\rutadelsaber\sidebar.php'; ?>
+<?php include 'C:/xampp/htdocs/rutadelsaber/header.php'; ?>
+<?php include 'C:/xampp/htdocs/rutadelsaber/sidebar.php'; ?>
 
 <!-- Carrusel de imagénes de la ruta -->
 
@@ -86,7 +86,7 @@ Mi intención con la página es crear algo útil y remodelar la página de la ru
   
 <!-- Reutilización de el footer -->
 
-<?php include 'C:\xampp\htdocs\rutadelsaber\footer.php'; ?>
+  <?php include 'C:/xampp/htdocs/rutadelsaber/footer.php'; ?>
   
 <!-- Links a Javascript codes -->
 

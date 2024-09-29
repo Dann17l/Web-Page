@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,10 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles.css/header.css">
     <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="/styles.css/styles/header.css">
 </head>
 <body>
 <div id="main-cont"></div>
@@ -33,14 +33,14 @@
 <nav role="navigation" class="primary-navigation">
 
   <ul>
-    <li><i class="fa fa-user"></i><a href="#" style="text-decoration: none !important;"> Clubes &dtrif;</a>
-      <ul class="dropdown" style="text-decoration: none !important;">
-        <li><a href="/rutadelsaber/index/thinking.php"style="text-decoration: none !important;">Thinking lab</a></li>
-        <li><a href="/rutadelsaber/index/nexus.php" style="text-decoration: none !important;">Nexus</a></li>
-        <li><a href="/rutadelsaber/index/saber.php"style="text-decoration: none !important;">Saber pensar</a></li>
-        <li><a href="/rutadelsaber/index/debates.php"style="text-decoration: none !important;">Sociedad de debates</a></li>
-        <li><a href="/rutadelsaber/index/escritores.php"style="text-decoration: none !important;">Sociedad de escritores</a>
-        <li><a href="/rutadelsaber/index/transformar.php"style="text-decoration: none !important;">Transformando</a>
+    <li><i class="fa fa-user"></i><a href="#" class=""> Clubes &dtrif;</a>
+      <ul class="dropdown">
+        <li><a href="/rutadelsaber/index/thinking.php">Thinking lab</a></li>
+        <li><a href="/rutadelsaber/index/nexus.php">Nexus</a></li>
+        <li><a href="/rutadelsaber/index/saber.php">Saber pensar</a></li>
+        <li><a href="/rutadelsaber/index/debates.php">Sociedad de debates</a></li>
+        <li><a href="/rutadelsaber/index/escritores.php">Sociedad de escritores</a>
+        <li><a href="/rutadelsaber/index/transformar.php">Transformando</a>
       </ul>
     </li>
 
@@ -79,7 +79,8 @@
 </nav>
 </header>
                 
-        </header> 
+        </header>
+    </div>
+    
 </body>
-<script src="/scripts/index/script.js"></script>
 </html>
