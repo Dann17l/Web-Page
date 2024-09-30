@@ -85,6 +85,7 @@ document.getElementById('btn').addEventListener('click', function() {
 });
 
 
+
 //Código del sidebar para aparecer al acercar el mouse
 
 document.addEventListener('DOMContentLoaded', function() {

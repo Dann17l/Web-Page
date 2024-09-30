@@ -27,3 +27,20 @@ menuToggle.addEventListener('click', function(e) {
   e.preventDefault();
   navigation.classList.toggle('open');
 });
+
+
+//carusel
+
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+        center: true,
+        items:7,
+        loop:true,
+        margin:10,
+        responsive:{
+            600:{
+                items:1
+            }
+        }
+    });
+});
