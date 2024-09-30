@@ -168,7 +168,7 @@ button.btn:hover {
 button {
     position: absolute;
     top: 50%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(144 201 207 / 50%);
     color: white;
     border: none;
     padding: 0.5rem;
@@ -179,6 +179,7 @@ button {
 }
 
 #prevBtn {
+    color: (rgba(109, 107, 207, 0.3)) !important;
     left: 0;
 }
 

@@ -19,7 +19,9 @@
     </head>
 <body>
  
-<?php include 'header.php'; ?>
+<!-- Reutilización de código con php del header y el sidebar, en lo último está el footer reutilizado. -->
+<?php include 'C:/xampp/htdocs/rutadelsaber/header.php'; ?>
+<?php include 'C:/xampp/htdocs/rutadelsaber/sidebar.php'; ?>
 
               <div class="container">
                 <div class="container-inside">
@@ -76,54 +78,10 @@
               </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-              
-
-              <div class="sidebar">
-                <ul>
-                  <li><a href="https://linktr.ee/Rutadelsabersocial" target="_blank" class="fa fa-instagram"></a></li>
-                </ul>
-                <ul>
-                  <li><a href="https://www.instagram.com/rutadelsaber1/" target="_blank" class="fa fa-instagram"></a></li>
-                </ul>
-                <ul>
-                  <li><a href="https://www.instagram.com/rutadelsaber1/" target="_blank" class="fa fa-whatsapp"></a></li>
-                </ul>
-                <ul>
-                  <li><a href="https://www.instagram.com/rutadelsaber1/" target="_blank" class="fa fa-tiktok"></a></li>
-                </ul>
-                <div class="sidebar-toggle">
-              </div>
-            </div>
-
-
-
-
-
 </body>
 
-
+<!-- Reutilización de el footer -->
+<?php include 'C:/xampp/htdocs/rutadelsaber/footer.php'; ?>
 
 <script src="/scripts/index/thinking.js"></script>
 <script src="https://kit.fontawesome.com/14fc7e6155.js" crossorigin="anonymous"></script>
