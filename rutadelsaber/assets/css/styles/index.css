@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+	margin:0;
+	padding:0;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../../img/fondo1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    filter: blur(2px);
+    z-index: -1;
+  }
+
+  main {
+    padding-top: 60px;
+  }
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 5px 5px 5px 5px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #15191d; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4e5157; 
+  }
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    -webkit-user-drag: none;
+}
+
+    #carousel-title{
+    margin-top: 5%;
+    text-align: left;
+    z-index: 5;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.carousel-main{
+    padding: 9px;
+    padding-left: 10px;
+    padding-right: 1px;
+    padding-top: 65px;
+    background-color: rgba(255, 255, 255, 0);
+    
+}
+
+.carousel {
+    position: relative;
+    width: 49.7vw;
+    overflow: hidden;
+    margin: 0 auto; 
+    color: #186ba6;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#car-div{
+    padding: 0px;
+}
+
+.carousel-images {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    z-index: 1;
+    
+}
+
+.carousel-images img {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 951px;
+    max-height: 451px;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.row{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 99.5vw;
+}
+
+
+.carousel-text {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: block;
+    margin-top: 20px;
+    
+    
+    
+}
+#btn{
+    align-items: center;
+    display: flex;
+    position: relative;
+    
+}
+
+button.btn {
+    background-color: rgb(0, 98, 163);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+button.btn:hover {
+    background-color: rgb(116, 154, 230);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+
+#name{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+#prevBtn {
+    left: 0;
+    padding: 10px;
+    background-color: rgba(0, 98, 163, 0.3) !important;
+    color: white;
+    font-size: 1rem;
+}
+
+#nextBtn {
+    right: 0;
+    padding: 10px;
+    background-color: rgba(0, 98, 163, 0.3) !important;
+    color: white;
+    font-size: 1rem;
+}
+
+#prevBtn:hover {
+    background-color: rgba(0, 98, 163, 0.836)  !important;
+    transition: all 0.5s ease;
+}
+
+#nextBtn:hover{
+    background-color: rgba(0, 98, 163, 0.836)  !important;
+    transition: all 0.5s ease;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    background-color: (99, 100, 146 / 50%);
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+/* Sobre nosotros */
+
+#member-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+#member-img.expanded {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    max-height: 80%;
+    z-index: 1000;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.container.blur, .contenido.blur, .prueba.blur, #nosotros.blur{
+    filter: blur(8px);
+    transition: filter 0.4s ease-in-out;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding: 20px;
+    font-size: 15px;
+    right: 0;
+}
+
+#mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 20px;
+    position: relative;
+    
+}
+
+.contenido{
+    right: 0;
+    max-width: 60%;
+}
+
+#nosotros {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 50px auto;
+  }
+  
+  .us-blur {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+    
+    #nosotros .container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    
+    #nosotros .contenido {
+        max-width: 50%;
+    }
+        
+    .info {
+        text-align: left;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+.img-container {
+    max-width: 35%;
+}
+
+
+.blur {
+    filter: blur(8px);
+    transition: filter 0.4s ease-in-out;
+}
+
+#main-cont.blur,
+.prueba.blur,
+.img-blur.blur,
+.test-blur.blur{
+    filter: blur(8px);
+    transition: filter 0.4s ease-in-out;
+}
+
+#test-img {
+    max-width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+#test-img.expanded {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    max-height: 80%;
+    z-index: 1000;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.test-blur {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+#main-cont {
+    transition: filter 0.4s ease-in-out;
+}
+
+/* fondo de unitecnar*/
+
+.back-info{
+    background-color: white;
+    top: -29px;
+    position: relative;
+}
+
+
+

@@ -18,19 +18,34 @@
 <body>
 <div class="sidebar">
     <ul>
-      <li><a href="https://linktr.ee/Rutadelsabersocial" target="_blank" class="fa fa-instagram"></a></li>
+    <div class="red">
+        <li>
+            <a  href="https://linktr.ee/Rutadelsabersocial" target="_blank" class="fa fa-instagram"></a>
+            <span class="tooltip">Instagram</span>
+        </li>
+        </div>
     </ul>
     <ul>
-      <li><a href="https://www.instagram.com/rutadelsaber1/" target="_blank" class="fa fa-instagram"></a></li>
+    <div class="red">
+        <li>
+            <a href="https://linktr.ee/clubesdelsaber" target="_blank" class="fa fa-whatsapp"></a>
+            <span class="tooltip">Whatsapp</span>
+        </li>
+        </div>
     </ul>
     <ul>
-      <li><a href="https://www.instagram.com/rutadelsaber1/" target="_blank" class="fa fa-whatsapp"></a></li>
+    <div class="red">
+        <li>
+            <a href="https://www.tiktok.com/@rutadelsaber1?_t=8oqphuZ0Zvy&_r=1" target="_blank" class="fa-brands fa-tiktok"></a>
+            <span class="tooltip">Tiktok</span>
+        </li>
+        </div>
     </ul>
-    <ul>
-      <li><a href="https://www.instagram.com/rutadelsaber1/" target="_blank" class="fa fa-tiktok"></a></li>
-    </ul>
-    <div class="sidebar-toggle">
-  </div>
-  </div>
+    <div class="sidebar-toggle"></div>
+</div>
+
+
+
+
 </body>
 </html>

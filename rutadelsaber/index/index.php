@@ -15,13 +15,13 @@ Mi intención con la página es crear algo útil y remodelar la página de la ru
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="/styles.css/styles/index.css">
+    <link rel="stylesheet" href="\styles.css\styles\index.css">
 
 </head>
 <body>
 <!-- Reutilización de código con php del header y el sidebar, en lo último está el footer reutilizado. -->
-<?php include 'C:/xampp/htdocs/rutadelsaber/header.php'; ?>
-<?php include 'C:/xampp/htdocs/rutadelsaber/sidebar.php'; ?>
+<?php include 'C:\xampp\htdocs\rutadelsaber\header.php'; ?>
+<?php include 'C:\xampp\htdocs\rutadelsaber\sidebar.php'; ?>
 
 <!-- Carrusel de imagénes de la ruta -->
 
@@ -38,7 +38,7 @@ Mi intención con la página es crear algo útil y remodelar la página de la ru
                 <div class="carousel">
                     <div class="carousel-images" id="owl-carousel">
                         <img src="/Sources/Carussel/1.jpeg" alt="Imagen 1">
-                        <img src="/Sources/Carussel/2.jpeg" alt="Imagen 2">
+                        <img src="/Sources/Carussel/6.jpeg" alt="Imagen 2">
                         <img src="/Sources/Carussel/3.jpeg" alt="Imagen 3">
                         <img src="/Sources/Carussel/4.jpeg" alt="Imagen 4">
                         <img src="/Sources/Carussel/5.jpeg" alt="Imagen 5">
@@ -76,11 +76,12 @@ Mi intención con la página es crear algo útil y remodelar la página de la ru
         </div>
       </div>
     </main>
+
   </body>
   
 <!-- Reutilización de el footer -->
 
-  <?php include 'C:/xampp/htdocs/rutadelsaber/footer.php'; ?>
+  <?php include 'C:\xampp\htdocs\rutadelsaber\footer.php'; ?>
   
 <!-- Links a Javascript codes -->
 

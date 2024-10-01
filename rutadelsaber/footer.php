@@ -36,9 +36,9 @@
       <div class="footer-col">
           <h4>Síguenos</h4>
           <div class="social">
-              <a href="https://www.instagram.com/rutadelsaber1/" target="_blank" class="fa fa-instagram"></a>
-              <a href="https://www.whatsapp.com/" target="_blank" class="fa fa-whatsapp"></a>
-              <a href="https://www.tiktok.com/" target="_blank" class="fa fa-tiktok"></a>
+              <a href="https://linktr.ee/Rutadelsabersocial" target="_blank" class="fa fa-instagram"></a>
+              <a href="https://linktr.ee/clubesdelsaber" target="_blank" class="fa fa-whatsapp"></a>
+              <a href="https://www.tiktok.com/@rutadelsaber1?_t=8oqphuZ0Zvy&_r=1" target="_blank" class="fa-brands fa-tiktok"></a>
           </div>
       </div>
   </div>
