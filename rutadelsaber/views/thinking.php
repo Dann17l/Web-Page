@@ -20,7 +20,7 @@
     <h1>Thinking Lab</h1>
     
     <section id="carousel" class="carousel">
-        <h2>Eventos de nuestro Club</h2>
+        <h2 class="car-text">Eventos de nuestro Club</h2>
         <div class="owl-carousel owl-theme" id="carousel-images">
             <div class="item">
                 <img src="../../rutadelsaber/assets/img/Thinking/8.jpeg" alt="Imagen 1">
