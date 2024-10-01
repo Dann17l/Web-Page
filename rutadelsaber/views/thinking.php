@@ -23,19 +23,19 @@
         <h2>Eventos de nuestro Club</h2>
         <div class="owl-carousel owl-theme" id="carousel-images">
             <div class="item">
-                <img src="../../rutadelsaber/assets/img/Thinking/1.jpeg" alt="Imagen 1">
-                <p class="carousel-caption">Evento de apertura de Gambito.</p>
+                <img src="../../rutadelsaber/assets/img/Thinking/8.jpeg" alt="Imagen 1">
+                <p class="carousel-caption">Apertura de Gambito</p>
             </div>
             <div class="item">
-                <img src="../../rutadelsaber/assets/img/Thinking/2.jpeg" alt="Imagen 2">
-                <p class="carousel-caption">.</p>
+                <img src="../../rutadelsaber/assets/img/Thinking/3.jpeg" alt="Imagen 2">
+                <p class="carousel-caption">Conversatorio de DatIA</p>
             </div>
             <div class="item">
-                <img src="../../rutadelsaber/assets/img/Thinking/3.jpeg" alt="Imagen 3">
-                <p class="carousel-caption">Conversatorio de DatIA.</p>
+                <img src="../../rutadelsaber/assets/img/Thinking/12.jpeg" alt="Imagen 3">
+                <p class="carousel-caption">Aprende impresión 3D</p>
             </div>
             <div class="item">
-                <img src="../../rutadelsaber/assets/img/Thinking/4.jpeg" alt="Imagen 4">
+                <img src="../../rutadelsaber/assets/img/Thinking/13.jpeg" alt="Imagen 4">
                 <p class="carousel-caption">Descripción de la imagen 4.</p>
             </div>
             <div class="item">

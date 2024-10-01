@@ -2,14 +2,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Asegura que padding y margin no afecten el ancho total */
+    box-sizing: border-box;
 }
 
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     line-height: 1.6;
-    color: #333; /* Color de texto general */
+    color: #333;
 }
 
 /* Fondo */
@@ -22,7 +22,7 @@ body::before {
     height: 100%;
     background: url(../../img/fondo1.jpg) no-repeat center center fixed;
     background-size: cover;
-    filter: blur(5px); /* Aumenta el desenfoque para un efecto más suave */
+    filter: blur(5px);
     z-index: -1;
 }
 
@@ -34,7 +34,7 @@ body::before {
 }
 
 .main-club-card {
-    background: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+    background: rgba(255, 255, 255, 0.9);
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     width: 40%; 
@@ -43,7 +43,7 @@ body::before {
 }
 
 .main-club-card:hover {
-    transform: translateY(-5px); /* Sutil efecto de elevación */
+    transform: translateY(-5px);
 }
 
 .main-club-img {
@@ -81,9 +81,9 @@ body::before {
 }
 
 .club-title {
-    font-size: 1.5rem; /* Aumentar el tamaño del título */
+    font-size: 1.5rem;
     margin: 10px 0;
-    font-weight: bold; /* Negrita para el título */
+    font-weight: bold;
 }
 
 .club-description {
@@ -97,35 +97,37 @@ body::before {
     margin: 30px 0; 
     border-radius: 15px; 
     overflow: hidden; 
-    position: relative; /* Para las flechas */
+    position: relative; 
+    max-width: 100%;
+    height: 700px; /* Incrementar la altura del carrusel */
 }
 
 .owl-carousel .item {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px; /* Altura del carrusel */
+    height: 100%; 
 }
 
 .owl-carousel img {
     width: 100%; 
     height: 100%; 
-    object-fit: cover; 
+    object-fit: cover; /* Asegurar que las imágenes se ajusten bien sin deformarse */
+    object-position: 300px; 
     border-radius: 15px; 
 }
 
 /* Descripción del carrusel */
 .carousel-caption {
     text-align: center;
-    font-size: 1.5rem; 
+    font-size: 2rem; /* Incrementar el tamaño del texto de la descripción */
     color: #fff; 
-    padding: 10px;
+    padding: 15px;
     background: rgba(0, 69, 99, 0.8); 
     border-radius: 5px;
     position: absolute;
-    bottom: 10px;
-    right: 55% !important;
-    left: 15%;
+    bottom: 20px;
+    left: 50%;
     transform: translateX(-50%);
 }
 
@@ -138,20 +140,19 @@ body::before {
     justify-content: space-between;
     transform: translateY(-50%);
     z-index: 10; 
-    color: #fff;
-    padding: 0 20px; /* Añadir padding para separarlas de los bordes */
+    padding: 0 20px;
 }
 
 .owl-nav button {
     background: rgba(0, 123, 255, 0.7);
     border: none;
     border-radius: 50%;
-    padding: 10px; /* Ajustar padding para más espacio interno */
-    font-size: 1rem; /* Mantener un tamaño de fuente adecuado */
+    padding: 10px;
+    font-size: 1rem; 
     color: #fff;
     transition: background 0.3s, transform 0.3s;
-    width: 30px; /* Establecer un ancho específico */
-    height: 30px; /* Establecer una altura específica */
+    width: 40px; /* Hacer los botones de flecha más grandes */
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -159,5 +160,5 @@ body::before {
 
 .owl-nav button:hover {
     background: rgba(0, 123, 255, 1); 
-    transform: scale(1.1); 
+    transform: scale(1.2); 
 }
