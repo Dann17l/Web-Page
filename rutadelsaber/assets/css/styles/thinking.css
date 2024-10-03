@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,9 +12,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    line-height: 1.6;
+
     color: #333;
     background-color: #f9f9f9;
 }
@@ -32,17 +37,7 @@ body::before {
     padding: 20px;
     background-color: #fff;
     border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-}
-
-.main-club-card {
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    width: 40%;
-    text-align: center;
-    transition: transform 0.3s;
-    margin: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 .main-club-card:hover {
@@ -55,99 +50,274 @@ body::before {
     height: auto;
 }
 
-.club-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 50px 0;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-}
+/* container colors */
 
-.club-card {
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    width: calc(30% - 15px);
-    margin: 20px;
-    transition: transform 0.3s;
-    padding: 20px;
+.think-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 50px;
+    padding: 20px;
+    background-color: rgba(131, 122, 122, 0.864);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    max-width: 367px;
+    left: 600px;
+    position: relative;
 }
 
-.club-card:hover {
-    transform: translateY(-5px);
+.datia-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+    background-color: rgba(237, 237, 237, 0.832);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    max-width: 367px;
+    position: relative;
+}
+
+.makers-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+    background-color: rgba(138, 183, 228, 0.854);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    max-width: 367px;
+    position: relative;
+}
+
+.gambito-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+    background-color: rgba(37, 178, 169, 0.832);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    max-width: 367px;
+    position: relative;
+}
+
+/* Descripción */
+
+
+.thinking-desc{
+    font-size: 1rem;
+    color: #000000;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: justify;
+    position: relative;
+    max-width: 400px;
+    width: 300px;
+    left: -71px;
+}
+
+.datia-desc{
+    font-size: 1rem;
+    color: #000000;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: justify;
+    position: relative;
+    max-width: 400px;
+    width: 300px;
+    left: -20px;
+}
+
+.gambito-desc{
+    font-size: 1rem;
+    color: #000000;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: justify;
+    position: relative;
+    max-width: 400px;
+    width: 300px;
+    left: -71px;
+}
+
+.makers-desc{
+    font-size: 1rem;
+    color: #000000;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: justify;
+    position: relative;
+    max-width: 400px;
+    width: 300px;
+    left: -71px;
+}
+
+.main-club-card {
+    width: 80%;
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.club-card {
+    width: 80%;
+    margin: 10px 0;
 }
 
 .club-img {
-    max-width: 100%;
-    border-radius: 15px 15px 0 0;
-    margin: 0 auto;
-    height: 200px;
-    object-fit: cover;
+    max-width: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+    left: 23px;
+    position: relative;
+}
+
+.club-text {
+    display: flex;
+    flex-direction: column;
 }
 
 .club-title {
     font-size: 1.5rem;
-    margin: 10px 0;
+    margin: 0;
     font-weight: bold;
-    text-align: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-bottom: 10px;
+    text-align: justify;
+    display: flex;
+    position: relative;
+    height: 80px;
+    max-width: 300px;
+    width: 300px;
+    top: 10px;
+    left: -7px;
 }
 
-.club-description {
-    font-size: 1rem;
-    color: #666;
-    padding: 10px;
-    text-align: center;
+
+.club-card:hover {
+    transform: translateY(-5px);
+    transition: all  0.3s ease-in-out;
 }
 
 .carousel {
-    margin: 50px auto;
+    margin: 100px 0;
     border-radius: 15px;
     overflow: hidden;
     position: relative;
-    max-width: 90%; /* Ajusta el ancho máximo */
-    width: 800px; /* Puedes modificar este valor para hacerlo más ancho o más angosto */
-    height: 400px; /* Ajusta la altura para que sea un rectángulo */
-    background-color: transparent;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    animation: fadeIn 2s;
 }
 
-.carousel-caption {
-    text-align: center;
-    font-size: 1.5rem;
-    color: #fff;
-    padding: 15px;
-    background: rgba(0, 69, 99, 0.8);
-    border-radius: 5px;
+.caro-back{
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.51), rgba(230, 230, 230, 0.522)) !important;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    position: relative;
+    overflow: hidden;   
+    margin: 85px 0;
+    max-height: 630px;
+
+
+}
+
+.caro-back::before {
+    content: '';
     position: absolute;
-    bottom: 20px; /* Ajusta la posición del texto */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80%; /* Modifica para controlar el ancho del texto */
-    animation: slideIn 2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.504);
+    border-radius: 15px;
+    z-index: 1; 
 }
 
 .owl-carousel .item {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    transition: transform 0.5s;
+    height: 400px;
 }
 
 .owl-carousel img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Asegura que las imágenes se adapten bien al rectángulo */
-    object-position: center;
+    object-fit: cover;
     border-radius: 15px;
-    transform: scale(1); /* Remueve el zoom para que no se corten partes de la imagen */
+}
+
+.carousel-caption {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 10px;
+    background: rgba(0, 69, 99, 0.8);
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    right: 52% !important;
+    left: 16% !important;
+    transform: translateX(-50%);
+}
+
+#keys{
+    background: rgba(0, 123, 255, 0.7);
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 1rem;
+    transition: background 0.3s, transform 0.3s;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+    background: transparent !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: rgba(0, 27, 56, 0.7)!important;
+}
+
+
+.owl-theme .owl-dots .owl-dot span {
+    background: rgba(0, 123, 255, 0.7) !important;
+}
+
+.owl-theme .owl-dots .owl-dot span:hover {
+    background: rgba(60, 145, 236, 0.7) !important;
+}
+
+.caro-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    top: 136px !important;
+    left: 170px !important;
+    z-index: 1000 !important;
+    position: absolute;
+}
+
+
+#keys:hover {
+    background: rgba(0, 123, 255, 1);
+    transform: scale(1.1);
 }
 
 .owl-nav {
@@ -158,34 +328,27 @@ body::before {
     justify-content: space-between;
     transform: translateY(-50%);
     z-index: 10;
+    color: #fff;
     padding: 0 20px;
 }
 
 .owl-nav button {
-    background: #FF69B4;
+    background: rgba(0, 123, 255, 0.7);
     border: none;
     border-radius: 50%;
     padding: 10px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #fff;
     transition: background 0.3s, transform 0.3s;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    animation: pulse 2s infinite;
 }
 
 .owl-nav button:hover {
-    background: #FFC0CB;
-    transform: scale(1.2);
-}
-
-.car-text {
-    font-size: 1.8rem;
-    color: #3498db;
-    text-align: center;
-    padding: 20px;
+    background: rgba(0, 123, 255, 1);
+    transform: scale(1.1);
+    border-radius: 50%;
 }

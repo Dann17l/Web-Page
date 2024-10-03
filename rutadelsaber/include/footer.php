@@ -22,7 +22,7 @@
   <div class="footer-cont">
       <div class="footer-col">
           <h4>Ruta del saber</h4>
-          <p>.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae repudiandae sequi placeat inventore illo eaque iure aspernatur cum voluptatem, eligendi sapiente mollitia optio aperiam sit voluptates nobis voluptatum exercitationem eum.</p>
       </div>
       <div class="footer-col">
           <h4>Enlaces</h4>

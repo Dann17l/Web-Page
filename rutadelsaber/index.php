@@ -56,7 +56,7 @@ Mi intención con la página es crear algo útil y remodelar la página de la ru
         <div class="us-blur">
           <div class="contenido" id="img-blur">
             <h1 id="mid">Sobre nosotros</h1>
-            <p class="info">Somos la ruta del saber</p>
+            <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse laborum ipsa laudantium magni eum aliquam incidunt odio facilis enim deserunt iure iste pariatur a, porro velit harum officia eaque! Similique.</p>
           </div>
           <div class="img-container">
             <img src="../rutadelsaber/assets/img/member.jpeg" alt="" class="expandable" id="member-img">
@@ -67,8 +67,8 @@ Mi intención con la página es crear algo útil y remodelar la página de la ru
       <div id="nosotros" class="container">
         <div class="test-blur">
           <div class="contenido" id="test-blur">
-            <h1 id="mid">Sobre nosotros</h1>
-            <p class="info">Somos la ruta del saber</p>
+            <h1 id="mid">Nuestros objetivos</h1>
+            <p class="info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate vitae doloribus, totam earum aperiam sit, quam repellendus ipsa magni quos minus, veritatis commodi aspernatur eos alias amet eius neque sequi.</p>
           </div>
           <div class="test-container">
             <img src="../rutadelsaber/assets/img/Carussel/29.jfif" alt="" class="expandable" id="test-img">

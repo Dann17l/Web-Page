@@ -37,14 +37,14 @@ $(document).ready(function() {
       loop: true,
       margin: 10,
       nav: true,
-      navText: ['<span class="fa fa-chevron-left"></span>', '<span class="fa fa-chevron-right"></span>'],
+      navText: ['<span class="fa fa-chevron-left" id="keys"></span>', '<span class="fa fa-chevron-right" id="keys"></span>'],
       responsive: {
           600: {
               items: 1
           }
       },
       autoplay: true,
-      autoplayTimeout: 10000,
+      autoplayTimeout: 1000,
       autoplayHoverPause: true,
       mouseDrag: true
   });
