@@ -1,354 +1,398 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Varela+Round&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --clr-main: #004563;
+  --clr-secondary: #00a8cc;
+  --clr-text: #f8f9fa;
+  --text-main-font-family: "Poppins", sans-serif;
+  --text-main-font-weight: 800;
+  --text-main-font-style: normal;
+  --text-info-font-family: "Poppins", sans-serif;
+  --text-info-font-weight: 500;
+  --text-info-font-style: normal;
+}
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-
-    color: #333;
-    background-color: #f9f9f9;
+  color: #333;
+  background-color: #f9f9f9;
 }
 
 body::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(../../img/fondo1.jpg) no-repeat center center fixed;
-    background-size: cover;
-    filter: blur(5px);
-    z-index: -1;
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../../img/fondo1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  filter: blur(5px);
+  z-index: -1;
 }
 
 .main-club-container {
-    display: flex;
-    justify-content: center;
-    margin: 50px 0;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-}
-
-.main-club-card:hover {
-    transform: translateY(-5px);
-}
-
-.main-club-img {
-    max-width: 100%;
-    border-radius: 15px 15px 0 0;
-    height: auto;
-}
-
-/* container colors */
-
-.think-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 50px;
-    padding: 20px;
-    background-color: rgba(131, 122, 122, 0.864);
-    border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-    max-width: 367px;
-    left: 600px;
-    position: relative;
-}
-
-.datia-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 50px;
-    padding: 20px;
-    background-color: rgba(237, 237, 237, 0.832);
-    border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-    max-width: 367px;
-    position: relative;
-}
-
-.makers-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 50px;
-    padding: 20px;
-    background-color: rgba(138, 183, 228, 0.854);
-    border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-    max-width: 367px;
-    position: relative;
-}
-
-.gambito-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 50px;
-    padding: 20px;
-    background-color: rgba(37, 178, 169, 0.832);
-    border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-    max-width: 367px;
-    position: relative;
-}
-
-/* Descripción */
-
-
-.thinking-desc{
-    font-size: 1rem;
-    color: #000000;
-    margin: 0;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-align: justify;
-    position: relative;
-    max-width: 400px;
-    width: 300px;
-    left: -71px;
-}
-
-.datia-desc{
-    font-size: 1rem;
-    color: #000000;
-    margin: 0;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-align: justify;
-    position: relative;
-    max-width: 400px;
-    width: 300px;
-    left: -20px;
-}
-
-.gambito-desc{
-    font-size: 1rem;
-    color: #000000;
-    margin: 0;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-align: justify;
-    position: relative;
-    max-width: 400px;
-    width: 300px;
-    left: -71px;
-}
-
-.makers-desc{
-    font-size: 1rem;
-    color: #000000;
-    margin: 0;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-align: justify;
-    position: relative;
-    max-width: 400px;
-    width: 300px;
-    left: -71px;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 .main-club-card {
-    width: 80%;
-    max-width: 150px;
-    margin-bottom: 20px;
+  width: 155%;
+  margin: 10px 0;
+  padding: 8em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  transition: transform 0.5s ease-out;
+}
+
+.main-club-card:hover {
+  transform: translateY(-0.9em);
+}
+
+.main-club-img {
+  max-width: 100%;
+  border-radius: 15px 15px 0 0;
+  height: auto;
+}
+
+/* C-cards */
+.c-cards {
+  display: flex;
+  flex-direction: row;
+  padding: 5em;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* container colors */
+.think-container, .datia-container, .makers-container, .gambito-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3em;
+  padding: 1.3em;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  max-width: 23.7em;
+  position: relative;
+  transition: margin 0.5s ease-out;
+  border-radius: 47px;
+  background: #e0e0e0;
+  box-shadow: 17px 17px 35px #bebebe, -17px -17px 35px  #ffffff;
+}
+
+.think-container {
+  background-color: rgba(131, 122, 122, 0.864);
+  left: 37em;
+}
+
+.datia-container {
+  background-color: rgba(237, 237, 237, 0.832);
+  max-width: 23em;
+  max-height: 60em;
+}
+
+.makers-container {
+  background-color: rgba(138, 183, 228, 0.854);
+}
+
+.gambito-container {
+  background-color: rgba(37, 178, 169, 0.832);
+}
+
+/* Descripción */
+.thinking-desc, .datia-desc, .gambito-desc, .makers-desc {
+  font-size: 1rem;
+  color: #000000;
+  margin: 0;
+  font-family: var(--text-info-font-family);
+  font-weight: var(--text-info-font-weight);
+  font-style: var(--text-info-font-style);
+  text-align: justify;
+  position: relative;
+  max-width: 40em;
+  width: 20em;
+  left: -2em;
 }
 
 .club-card {
-    width: 80%;
-    margin: 10px 0;
+  width: 155%;
+  padding: 0em;
 }
 
 .club-img {
-    max-width: 100px;
-    border-radius: 10px;
-    margin-right: 20px;
-    left: 23px;
-    position: relative;
+  max-width: 7em;
+  border-radius: 0.8em;
+  margin-right: 2em;
+  left: 4.3em;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .club-text {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .club-title {
-    font-size: 1.5rem;
-    margin: 0;
-    font-weight: bold;
-    align-items: center;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    padding-bottom: 10px;
-    text-align: justify;
-    display: flex;
-    position: relative;
-    height: 80px;
-    max-width: 300px;
-    width: 300px;
-    top: 10px;
-    left: -7px;
+  font-size: 1.5rem;
+  margin: 0;
+  font-family: var(--text-main-font-family);
+  font-weight: var(--text-main-font-weight);
+  font-style: var(--text-main-font-style);
+  padding-bottom: 1em;
+  text-align: justify;
+  display: flex;
+  position: relative;
+  height: 3em;
+  max-width: 30em;
+  top: 0.5em;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 
+#thinking-title {
+  left: 2em;
+}
+
+#datia-title {
+  left: 3.8em;
+}
+
+#makers-title {
+  left: 2.5em;
+}
+
+#gambito-title {
+  left: 3em;
+}
 
 .club-card:hover {
-    transform: translateY(-5px);
-    transition: all  0.3s ease-in-out;
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out;
 }
 
 .carousel {
-    margin: 100px 0;
-    border-radius: 15px;
-    overflow: hidden;
-    position: relative;
+  margin: 100px 0;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
 }
 
-.caro-back{
-    background: linear-gradient(145deg, rgba(255, 255, 255, 0.51), rgba(230, 230, 230, 0.522)) !important;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-    padding: 10px 20px;
-    position: relative;
-    overflow: hidden;   
-    margin: 85px 0;
-    max-height: 630px;
-
-
+.caro-back {
+  background: rgba(16, 55, 92, 0.81) !important;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  position: relative;
+  overflow: hidden;
+  margin: 85px 0;
+  max-height: 630px;
 }
 
 .caro-back::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(255, 255, 255, 0.504);
-    border-radius: 15px;
-    z-index: 1; 
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.504);
+  border-radius: 15px;
+  z-index: 1;
 }
 
 .owl-carousel .item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
 }
 
 .owl-carousel img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
 }
 
 .carousel-caption {
-    text-align: center;
-    font-size: 1.5rem;
-    color: #fff;
-    padding: 10px;
-    background: rgba(0, 69, 99, 0.8);
-    border-radius: 5px;
-    position: absolute;
-    bottom: 10px;
-    right: 52% !important;
-    left: 16% !important;
-    transform: translateX(-50%);
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 10px;
+  background: rgba(0, 69, 99, 0.8);
+  border-radius: 5px;
+  position: absolute;
+  bottom: 10px;
+  right: 52% !important;
+  left: 16% !important;
+  transform: translateX(-50%);
 }
 
-#keys{
-    background: rgba(0, 123, 255, 0.7);
-    border: none;
-    border-radius: 50%;
-    padding: 10px;
-    font-size: 1rem;
-    transition: background 0.3s, transform 0.3s;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#keys {
+  background: rgba(0, 123, 255, 0.7);
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 1rem;
+  transition: background 0.3s, transform 0.3s;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
-    background: transparent !important;
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+  background: transparent !important;
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: rgba(0, 27, 56, 0.7)!important;
+  background: rgba(0, 27, 56, 0.7) !important;
 }
 
-
 .owl-theme .owl-dots .owl-dot span {
-    background: rgba(0, 123, 255, 0.7) !important;
+  background: rgba(0, 123, 255, 0.7) !important;
 }
 
 .owl-theme .owl-dots .owl-dot span:hover {
-    background: rgba(60, 145, 236, 0.7) !important;
+  background: rgba(60, 145, 236, 0.7) !important;
 }
 
-.caro-title{
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    top: 136px !important;
-    left: 170px !important;
-    z-index: 1000 !important;
-    position: absolute;
+.caro-title {
+  font-family: var(--text-main-font-family);
+  font-weight: var(--text-main-font-weight);
+  font-style: var(--text-main-font-style);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 9%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  text-align: center;
+  width: 100%;
+  color: white;
 }
-
 
 #keys:hover {
-    background: rgba(0, 123, 255, 1);
-    transform: scale(1.1);
+  background: rgb(0, 123, 255);
+  transform: scale(1.1);
 }
 
 .owl-nav {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
-    z-index: 10;
-    color: #fff;
-    padding: 0 20px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  z-index: 10;
+  color: #fff;
+  padding: 0 20px;
 }
 
 .owl-nav button {
-    background: rgba(0, 123, 255, 0.7);
-    border: none;
-    border-radius: 50%;
-    padding: 10px;
-    font-size: 1rem;
-    color: #fff;
-    transition: background 0.3s, transform 0.3s;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background: rgba(0, 123, 255, 0.7);
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 1rem;
+  color: #fff;
+  transition: background 0.3s, transform 0.3s;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .owl-nav button:hover {
-    background: rgba(0, 123, 255, 1);
-    transform: scale(1.1);
-    border-radius: 50%;
+  background: rgb(0, 123, 255);
+  transform: scale(1.1);
+  border-radius: 50%;
 }
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .main-club-container, .think-container, .datia-container, .makers-container, .gambito-container {
+    margin: 30px;
+    padding: 15px;
+  }
+  .thinking-desc, .datia-desc, .gambito-desc, .makers-desc {
+    max-width: 35em;
+    width: 18em;
+    left: -1em;
+  }
+}
+@media (max-width: 992px) {
+  .main-club-container, .think-container, .datia-container, .makers-container, .gambito-container {
+    margin: 20px;
+    padding: 10px;
+  }
+  .thinking-desc, .datia-desc, .gambito-desc, .makers-desc {
+    max-width: 30em;
+    width: 16em;
+    left: 0;
+  }
+}
+@media (max-width: 768px) {
+  .main-club-container, .think-container, .datia-container, .makers-container, .gambito-container {
+    margin: 10px;
+    padding: 5px;
+  }
+  .thinking-desc, .datia-desc, .gambito-desc, .makers-desc {
+    max-width: 25em;
+    width: 14em;
+    left: 0;
+    text-align: center;
+  }
+  .c-cards {
+    flex-direction: column;
+    padding: 2em;
+  }
+  .carousel-caption {
+    visibility: hidden;
+  }
+}
+@media (max-width: 576px) {
+  .main-club-container, .think-container, .datia-container, .makers-container, .gambito-container {
+    margin: 5px;
+    padding: 5px;
+  }
+  .thinking-desc, .datia-desc, .gambito-desc, .makers-desc {
+    max-width: 20em;
+    width: 12em;
+    left: 0;
+    font-size: 0.9rem;
+  }
+  .club-title {
+    font-size: 1.2rem;
+    max-width: 100%;
+    width: auto;
+  }
+  .carousel-caption {
+    visibility: hidden;
+  }
+}/*# sourceMappingURL=thinking.css.map */

@@ -18,13 +18,13 @@
 
 <div class="container">
     
-    <div class="caro-title">
-    <h2>¡Conócenos más a fondo!</h2>
-    </div>
     <div class="caro-back">
+        <div class="caro-title">
+        <h2>¡Conócenos más a fondo!</h2>
+        </div>
         <section id="carousel" class="carousel">
             <div class="owl-carousel owl-theme" id="carousel-images">
-            <div class="item">
+                <div class="item">
                 <img src="../../rutadelsaber/assets/img/Thinking/1.jpeg" alt="Imagen 1">
                 <p class="carousel-caption">Lanzamiento de apertura de nuestro club - Gambito</p>
             </div>
@@ -48,17 +48,19 @@
     <div class="think-container">
         <div class="main-club-card">
             <img src="../../rutadelsaber/assets/img/Clubes/Thinking lab.jpeg" alt="Thinking Lab" class="club-img main-club-img">
-            <h2 class="club-title">Thinking Lab</h2>
+            <h2 class="club-title" id="thinking-title">Thinking Lab</h2>
             <p class="thinking-desc">En Thinking Lab nos apasiona el aprendizaje práctico y la exploración de nuevas fronteras del conocimiento. Nos enfocamos en desarrollar habilidades clave en ajedrez, impresión 3D, razonamiento cuantitativo e inteligencia artificial (IA). Nuestro club principal se divide en tres clubes especializados, cada uno diseñado para ofrecer experiencias dinámicas y estimulantes. ¡Ven y despierta tu curiosidad con nosotros!</p>
         </div>
     </div>
+
+    <div class="c-cards">
 
     <div class="datia-container">
     <div class="club-card">
         <div class="main-club-card">
             <img src="../../rutadelsaber/assets/img/Clubes/DatIA.jpeg" alt="DatIA" class="club-img">
             <div class="club-text">
-                <h2 class="club-title">DatIA</h2>
+                <h2 class="club-title" id="datia-title">DatIA</h2>
                 <p class="datia-desc">En el Club DatIA fusionamos el poder del razonamiento cuantitativo con las tecnologías más avanzadas en inteligencia artificial. Si te interesan las matemáticas, el análisis de datos y cómo la IA está cambiando el mundo, este es tu lugar. Ofrecemos talleres prácticos, proyectos colaborativos y retos donde podrás aplicar algoritmos, aprender técnicas de machine learning y resolver problemas reales. No solo adquirirás habilidades técnicas, sino que también comprenderás cómo estas herramientas están moldeando el futuro. ¡Sumérgete en el mundo de los datos y la IA con DatIA!</p>
             </div>
         </div>
@@ -70,8 +72,8 @@
         <div class="main-club-card">
             <img src="../../rutadelsaber/assets/img/Clubes/MakersLab.jpeg" alt="MakersLab" class="club-img">
             <div class="club-text">
-                <h2 class="club-title">MakersLab</h2>
-                <p class="makers-desc">Bienvenido a Thinking lab, donde pensar lógicamente se convierte en una experiencia de descubrimiento...</p>
+                <h2 class="club-title" id="makers-title">MakersLab</h2>
+                <p class="makers-desc">¿Tienes una mente creativa y te apasiona la tecnología? En MakersLab damos vida a tus ideas mediante la impresión 3D. Desde piezas decorativas hasta prototipos funcionales, aquí aprenderás todo sobre diseño digital y fabricación aditiva. Explora nuestras sesiones prácticas y descubre cómo puedes transformar conceptos abstractos en objetos reales, todo mientras desarrollas habilidades que están revolucionando industrias. </p>
             </div>
         </div>
     </div>
@@ -83,11 +85,13 @@
         <div class="main-club-card">
             <img src="../../rutadelsaber/assets/img/Clubes/Gambito.jpeg" alt="Gambito" class="club-img">
             <div class="club-text">
-                <h2 class="club-title">Gambito</h2>
-                <p class="gambito-desc">Bienvenido a Thinking lab, donde pensar lógicamente se convierte en una experiencia de descubrimiento...</p>
+                <h2 class="club-title" id="gambito-title">Gambito</h2>
+                <p class="gambito-desc">Si te apasiona el ajedrez o quieres aprender a dominar el tablero, Club de Ajedrez Gambito es el lugar ideal para ti. Aquí no solo jugarás partidas, sino que también aprenderás estrategias avanzadas y te sumergirás en la lógica detrás de cada movimiento. Participa en torneos, talleres, y encuentros donde podrás retar tus límites intelectuales y mejorar tu toma de decisiones bajo presión. </p>
             </div>
         </div>
     </div>
+</div>
+
 </div>
 
 </div>

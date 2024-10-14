@@ -44,7 +44,7 @@ $(document).ready(function() {
           }
       },
       autoplay: true,
-      autoplayTimeout: 1000,
+      autoplayTimeout: 10000,
       autoplayHoverPause: true,
       mouseDrag: true
   });
